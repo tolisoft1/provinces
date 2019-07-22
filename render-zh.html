@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="http://gh.billchen.bid/provinces/china.js"></script>
+
+</head>
+<body>
+    <div id="8b33cd5f802a41f2a1145dd0b934038d" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_8b33cd5f802a41f2a1145dd0b934038d = echarts.init(
+            document.getElementById('8b33cd5f802a41f2a1145dd0b934038d'), 'white', {renderer: 'canvas'});
+        var option_8b33cd5f802a41f2a1145dd0b934038d = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "China"
+        }
+    ],
+    "geo": {
+        "map": "China",
+        "roam": true,
+        "emphasis": {}
+    }
+};
+        chart_8b33cd5f802a41f2a1145dd0b934038d.setOption(option_8b33cd5f802a41f2a1145dd0b934038d);
+    </script>
+</body>
+</html>
