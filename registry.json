@@ -1,0 +1,10 @@
+{
+    "GITHUB_URL": "http://gh.billchen.bid/provinces",
+    "JS_FOLDER": "/",
+    "PINYIN_MAP": {
+        "China": "China"
+    },
+    "FILE_MAP": {
+        "China": "china"
+    }    
+}
